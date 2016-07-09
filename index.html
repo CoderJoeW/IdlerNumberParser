@@ -32,7 +32,7 @@
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h3>
 
 <p>
-  IdlerNumberParser(IDN) is a simple lightwieght frame work for converting numbers for display. Our simple parser can take a large number such as 65656554 and turn it into 65.7M for display while still retaining the value and all decimal places. This is the first release of the parse but we will continue improving it making it faster and provide higher values! Currently IDN supports numbers up to 999 Decillion
+  IdlerNumberParser(IDN) is a simple lightwieght frame work for converting numbers for display. Our simple parser can take a large number such as 65656554 and turn it into 65.7M for display while still retaining the value and all decimal places. This is the first release of the parser but we will continue improving it making it faster and provide higher values! Currently IDN supports numbers up to 999 Decillion
 </p>
 
 <h3>
@@ -41,9 +41,9 @@
 <p>
   Download the file from our github repo and put it in a folder named "js" on your server.<br>
   Once on your server add this to the HEAD of your document
-  ```javascript
+  {% highlight javascript linenos=table %}
     <script src="js/IdlerNumberParser.js"></script>
-  ```
+  {% endhighlight %}
   Once done you may use the function by calling INP(number,round);
 </p>
 
