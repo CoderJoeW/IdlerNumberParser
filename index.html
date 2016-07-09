@@ -121,14 +121,16 @@
   var field = document.getElementById("num");
   var div = document.getElementById("output");
 
-  field.onkeyup = function() {
-    var num = document.getElementById("num").value;
+  function Update(){
+  	var num = document.getElementById("num").value;
     var rounded = document.getElementById("rounded").value;
 
     var output = INP(num, rounded);
 
     div.innerHTML = "Output: " + output;
   }
+  
+  setInterval(Update,500);
 </script>
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
