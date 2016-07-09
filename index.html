@@ -50,26 +50,42 @@
       &ltscript src="js/IdlerNumberParser.js"&gt&lt\/script&gt
     </code>
   </pre>
-  Once done you may use the function by calling INP(number,round);
+  Once done you may use the function by calling 
+  <pre>
+    <code>
+      INP(number,round);
+    </code>
+  </pre>
 </p>
 
 <h3>
 <a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Documentation</h3>
 
 <p>
-  ```javascript
-    INP(number,round);
-  ```
+  <pre>
+    <code>
+      INP(number,round);
+    </code>
+  </pre>
   
   INP Supports rounding and non rounding.
   You can make a call to INP only filling in the number parameter which will return the raw number back with its prefix for example
-  ```javascript
-    INP(5003);
-  ```
+  <pre>
+    <code>
+      INP(5003);
+    </code>
+  </pre>
+  
   will return
-  `5.003K`
+  <pre>
+    <code>
+      5.003K
+    </code>
+  </pre>
+
   you can specify how many decimal places should be rounded by using filling in the round parameter for example
-  ```javascript
+  <pre>
+    <code>
     var a = INP(5123,0);
     var b = INP(5123,1);
     var c = INP(5123,2);
@@ -79,14 +95,18 @@
     console.log(b);
     console.log(c);
     console.log(d);
-  ```
+    </code>
+  </pre>
+
   the output to the console would be
-  `
-  5K
-  5.1K
-  5.12K
-  5.123K
-  `
+  <pre>
+    <code>
+      5K
+      5.1K
+      5.12K
+      5.123K
+    </code>
+  </pre>
   <br>
 </p>
 
