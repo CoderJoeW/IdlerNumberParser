@@ -6,7 +6,11 @@ IdlerNumberParser(IDN) is a simple lightwieght frame work for converting numbers
 
 ##TO DO
 -Add higher number support
+
 -Add differential number systems
+
 -Optimize function
+
 -More functionality
+
 -Extend Framework
